@@ -1,0 +1,68 @@
+body {
+  background-image: url("university-background.jpg");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#registration-form {
+  padding: 50px;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+h2,
+h3 {
+  color: rgb(54, 201, 54);
+  text-align: center;
+  margin-top: -2px;
+}
+
+h2 {
+  font-weight: 900;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 7px;
+  margin: 5px 0 10px 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(40, 139, 40);
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #0069d9;
+}

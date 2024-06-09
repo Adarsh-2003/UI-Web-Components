@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>University Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="registration-form">
+        <h2>Indian Institute of Technology [Bombay]</h2>
+        <h3>US Trip Registration Form</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="student-id">Student ID:</label>
+        <input type="text" id="student-id" name="student-id" required />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required />
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
